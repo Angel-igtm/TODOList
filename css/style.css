@@ -1,0 +1,132 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgba(64 205 120)
+}
+.list ul {
+    list-style-type: none;
+    padding: 0;
+    width: 355px;
+
+    height: 125px;
+}
+.head  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    
+}
+#inp {
+    border-radius: 5px;
+    border: 1px solid;
+    width: 68%;
+    height: 25px;
+    padding: 7px;
+    font-size: 19px;
+}
+#inp:hover {
+    background: rgba(91 96 255);
+    color: white;
+}
+#btn {
+    height: 35px;
+    border-radius: 40px;
+    /* border: 1px solid; */
+    border: none;
+    margin-left: 30px;
+    width: 34px;
+    font-size: 21px;
+}
+#btn:focus {
+    outline: none;
+}
+#btn:hover{
+    cursor: pointer;
+    background: rgba(91 96 255);
+    transition: .2s;
+    color: white;
+}
+
+.list {
+    width: 356px;
+
+
+}
+#elem {
+    margin: 20px 0;
+    width: inherit;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .delete {
+    margin: 0 10px 0 213px;
+} */
+.main {
+    width: 400px;
+    text-align: center;
+}
+.delete{
+    /* position: relative;
+    left: 208px; */
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 42px;
+    /* height: 35px; */
+    border: none;
+    margin: 0 15px 0;
+}
+.delete:hover, .delete:focus {
+    color: white;
+    cursor: pointer;
+    background: sandybrown;
+    outline: none;
+    box-shadow: 1px 0px 5px 1px
+}
+.edit {
+    /* position: relative;
+    left: 223px; */
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 42px;
+    /* height: 35px; */
+    border: none;
+}
+.edit:hover, .edit:focus {
+    color: white;
+    cursor: pointer;
+    background: sandybrown;
+    outline: none;
+    box-shadow: 1px 0px 5px 1px
+}
+.item_input {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.save {
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 42px;
+    /* height: 35px; */
+    border: none;
+    margin: 0;
+}
+.save:hover, .save:focus {
+    color: white;
+    cursor: pointer;
+    background: sandybrown;
+    outline: none;
+    box-shadow: 1px 0px 5px 1px
+}
+.toggleDiv {
+    width: 100px;
+    height: 100px;
+
+}
