@@ -122,20 +122,20 @@ btn.addEventListener("click", (e) => {
     let elem = document.querySelectorAll('.item_input');
     btnEdit = !btnEdit
     inpTasks.disabled = !inpTasks.disabled;
+    let saveBtn = document.querySelectorAll('.edit')
     obj.map((item,index)=> {
-      if(btnEdit === true && index == Number(id)) {
+      if(btnEdit === true && index === Number(id)) {
         elem[index].style.boxShadow = '1px 4px 5px blue';
         elem[index].style.background = 'white';
-        let saveBtn = document.querySelector('.edit')
-        saveBtn.innerHTML = 'Save'
+        saveBtn[index].innerHTML = 'Save'
+        // console.log(saveBtn)
         
         
       }
       else {
         elem[index].style.background = 'none';
         elem[index].style.boxShadow = 'none';
-        let saveBtn = document.querySelector('.edit');
-        saveBtn.innerHTML = 'Edit';
+        saveBtn[index].innerHTML = 'Edit';
       }
 
 
