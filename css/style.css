@@ -130,3 +130,34 @@ body {
     height: 100px;
 
 }
+@media (max-width: 477px){
+    #inp {
+        width: 46%;
+        height: 15px;
+    }
+    #btn {
+        height: 24px;
+        width: 24px;
+        font-size: 15px;
+    }
+    .main {
+        width: 311px;
+    }
+    .list {
+        width: 311px;
+    }
+    .list ul {
+        width: 311px;
+        text-align: center;
+    }
+    .edit {
+        font-size: 13px
+    }
+    .delete {
+        margin: 0 9px 0;
+        font-size: 13px;
+    }
+    .item_input {
+        width: 157px
+    }
+}
